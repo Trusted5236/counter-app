@@ -1,0 +1,89 @@
+* {
+    font-family: "Afacad", sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(83, 13, 13);
+
+}
+body{
+    height: 100vh;
+}
+.layer-1 {
+    background-image: url("Images/photo-1580974852861-c381510bc98a.avif");
+    background-size: cover;
+    height: auto;
+    margin: 100px;
+    text-align: center;
+    border: 5px solid grey;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.logo {
+    mix-blend-mode: multiply;
+}
+
+.h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+ 
+h1{
+    border: 1px solid grey;
+    margin: 0 300px;
+    border-radius: 4px;
+    color: grey;
+}
+
+#count-el{
+    font-size: 70px;
+    color: grey;
+}
+
+#Increment-btn {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    font-size: 40px;
+    font-weight: bold;
+    color: grey;
+    background-color: rgb(83, 13, 13);
+    border-radius: 4px;
+    margin-top: 30px;
+}
+
+#save-btn {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    font-size: 40px;
+    font-weight: bold;
+    color: grey;
+    background-color: green;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+
+#save-el{
+    font-weight: bold;
+    font-size: 30px;
+    color: grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p{
+    margin: 0 300px;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+h2{
+    margin: 0 300px;
+    border: 1px solid grey;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+button:hover{
+    box-shadow: 0 5px 5px grey;
+}
